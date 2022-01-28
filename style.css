@@ -27,7 +27,7 @@ img {
     border-radius: 0 8px 8px 0;
 }
 .purple {
-	position:relative;
+	position: relative;
     height: 358.45px;
 }
 .purple:before {
@@ -69,4 +69,58 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 500;
     color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media (max-width: 890px) {
+    .card {
+        flex-direction: column-reverse;
+    }
+    main {
+        width: 262px;
+        padding: 25px 25px 30px 25px;
+        border-radius: 0 0 8px 8px;
+        text-align: center;
+    }
+    img {
+        width: 262px;
+        height: 194px;
+        object-fit: cover;
+        object-position: 0 0;
+        border-radius: 8px 8px 0 0;
+    }
+    .purple {
+        height: 194px;
+    }
+    .purple:before {
+      height: 194px;
+      border-radius: 8px 8px 0 0;
+    }
+    h1 {
+        margin-top: 5px;
+        font-size: 22px;
+    }
+    p {
+        margin-top: 10px;
+    }
+    .stats {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .statBox {
+        margin-top: 26px;
+        margin-right: 0;
+    }
+    .number {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .label {
+        margin-top: 5px;
+        letter-spacing: 0.8px;
+        font-size: 9.5px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
 }
