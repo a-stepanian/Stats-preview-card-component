@@ -5,17 +5,19 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Table of contents
 
 - [Screenshots](#screenshots)
-
+- [Solution URL](#solution-url)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
- 
+
 ## Screenshots
 ### Desktop Design
 ![](./screenshot.jpg)
 ### Mobile Design (executed with pure CSS media queries)
 ![](./mobile.jpg)
 
+## Solution URL
+https://a-stepanian.github.io/Stats-preview-card-component/
 
 ## My process
 
