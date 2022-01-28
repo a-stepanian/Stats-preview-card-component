@@ -4,15 +4,17 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
  
-## Screenshot
-
+## Screenshots
+### Desktop Design
 ![](./screenshot.jpg)
+### Mobile Design (executed with pure CSS media queries)
+![](./mobile.jpg)
 
 
 ## My process
